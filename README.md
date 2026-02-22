@@ -1,38 +1,37 @@
 
-# # 👾 PixelLov3! 
-### *En un mundo de alta definición, el amor en píxeles es el más puro.*
+# PixelLov3! 
+### *"En un mundo de alta definición, el amor en píxeles es el más puro."*
 
-**PixelLov3!** es una plataforma web minimalista para crear y enviar "cartitas" virtuales personalizadas. No es solo un mensaje; es una **minihistoria interactiva** donde tú diseñas a los protagonistas y dejas que el amor (y un poquito de código) haga el resto.
-
+**PixelLov3!** PixelLov3! es un generador de cartas virtuales donde el usuario no solo envía un mensaje, sino que protagoniza una pequeña aventura en pixel art. Tú diseñas a los personajes, el sistema crea la historia y tu pareja vive la experiencia.
 ---
 
-## 📖 ¿Cómo funciona la experiencia?
+## ¿Cómo funciona la experiencia?
 
-El proyecto se divide en tres actos mágicos:
+El proyecto se divide en tres actos:
 
-1.  **El Taller de Píxeles (Remitente):** Personalizas tu avatar y el de tu pareja (cabello, ropa, colores). Al terminar, el sitio genera un **link único** que contiene toda la configuración de los personajes.
+1.  **Laboratorio de Píxeles (Remitente):** Personalizas tu avatar y el de tu pareja (cabello, ropa, colores). Al terminar, el sitio genera un **link único** que contiene toda la configuración de los personajes.
     
-2.  **La Entrega (La Minihistoria):** Cuando el destinatario abre el link, comienza una secuencia animada. Tu personaje camina hacia el suyo para entregarle la carta en un escenario retro.
+2.  **La Entrega (La Minihistoria):** Cuando el destinatario abre el link, comienza una secuencia animada. Tu personaje aparece con pequeños dialogos para entregarle la carta en un escenario retro.
     
-3.  **El Gran Dilema:** Aparece la pregunta: *¿Quieres ser mi San Valentín?* * **Botón SÍ:** Desbloquea la animación final de beso y abrazo.
+3.  **El Gran Dilema:** Aparece la pregunta: *¿Quieres ser mi San Valentín?* * **Botón SÍ:** Desbloquea la animación final feliz.
     * **Botón NO:** ¡Es una trampa! El botón se escapa, se encoge o se burla del usuario, porque en PixelLov3! el "No" no es una opción válida.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
-Este proyecto está construido con pura nostalgia y tecnología web moderna:
+Este proyecto está construido con:
 
 * **HTML5:** Estructura de la escena y el editor.
 * **CSS3 (Pixel-Art Focus):** * `image-rendering: pixelated;` para que los dibujos no se vean borrosos.
-    * `@keyframes` para las animaciones de caminar, besar y los corazones flotantes.
+    * `@keyframes` para las animaciones de besar y los corazones flotantes.
     * Diseño responsivo para que se vea bien en móviles.
 * **JavaScript (Vanilla):** * Manejo de **URLSearchParams** para pasar los diseños de una página a otra sin necesidad de base de datos.
     * Lógica del botón "rebelde" que huye del cursor.
 
 ---
 
-## 🎨 Estética Visual
+## Estética Visual
 
 * **Tipografía:** [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) para ese sentimiento de videojuego clásico.
 * **Sprites:** Personajes construidos por capas (Base + Cabello + Ropa) usando `z-index`.
@@ -40,7 +39,7 @@ Este proyecto está construido con pura nostalgia y tecnología web moderna:
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 PixelLov3/
